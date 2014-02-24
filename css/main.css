@@ -1,0 +1,258 @@
+@font-face {
+	font-family: 'blackjackregular';
+	src: url('fonts/black_jack-webfont.eot');
+	src: url('fonts/black_jack-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/black_jack-webfont.woff') format('woff'),
+		 url('fonts/black_jack-webfont.ttf') format('truetype'),
+		 url('fonts/black_jack-webfont.svg#blackjackregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'aaarghnormal';
+    src: url('fonts/Aaargh-webfont.eot');
+    src: url('fonts/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Aaargh-webfont.woff') format('woff'),
+         url('fonts/Aaargh-webfont.ttf') format('truetype'),
+         url('fonts/Aaargh-webfont.svg#aaarghnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alegreyaregular';
+    src: url('fonts/alegreya-regular-webfont.eot');
+    src: url('fonts/alegreya-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/alegreya-regular-webfont.woff') format('woff'),
+         url('fonts/alegreya-regular-webfont.ttf') format('truetype'),
+         url('fonts/alegreya-regular-webfont.svg#alegreyaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+	background: url('../images/bg.jpg') no-repeat center center fixed;   
+	-webkit-background-size: cover;  
+	-moz-background-size: cover;  
+	-o-background-size: cover;  
+	background-size: cover;  
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.jpg', sizingMethod='scale')";  
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.jpg', sizingMethod='scale');
+}
+body{
+	margin:0;
+	padding:0;
+	/*background:url('../images/bg.jpg') no-repeat top;*/
+}
+.bodyWrap{
+	max-width:960px;
+}
+.mainMenu{
+	background-color:#004a80;
+}
+.mainMenu ul{
+	margin:0 auto;
+	padding-left:10px;
+}
+.mainMenu ul li{
+	display:inline-block;
+	/*border-left:solid 1px #b7bbbe;
+	padding:95px 75px 10px 10px;*/
+}
+.mainMenu ul li.social{
+	border-left:solid 1px #b7bbbe;
+	padding:95px 75px 10px 10px;
+}
+.mainMenu ul li a:hover{
+	background:#003471;
+}
+.mainMenu ul li a{
+	color:#ffffff;
+	text-decoration:none;
+	font-size:12px;
+	font-weight:bold;
+	letter-spacing:1px;
+	border-left:solid 1px #b7bbbe;
+	padding:95px 75px 10px 10px;
+	display:block;
+}
+.social{
+	border-right:solid 1px #b7bbbe;
+	padding:77px 10px 10px 10px !important;
+}
+.social a{
+	display:inline-block !important;
+	padding:0 !important;
+	border:none !important;
+}
+.content{
+	min-height:482px;
+	display:block;
+	margin:0 auto;
+	padding:30px 25px;
+	font-family: "alegreyaregular", Helvetica, Arial, sans-serif;
+	font-size:16px;
+	color:#004a80;
+}
+#footer{
+	background:#003471;
+	color:#ffffff;
+	padding:10px;
+	font-family: "alegreyaregular", Helvetica, Arial, sans-serif;
+	text-align:center;
+	/*position:fixed;
+	bottom:0;
+	width:100%;*/
+}
+#footer div{
+	display:block;
+	margin:0 auto;
+}
+#footer h2{
+	margin:0;
+	display:inline-block;
+}
+#footer span{
+	font-size:14px;
+	/*float:right;*/
+	margin-top:14px;
+	font-family: Arial, sans-serif;
+}
+#footer span a{
+	color:#ffffff;
+}
+.social a{
+	display:inline-block;
+	width:33px;
+	height:33px;
+}
+.social .facebook{
+	background:url('../images/sprites.social.png') 66px 33px;
+}
+.social .linkedin{
+	background:url('../images/sprites.social.png') 0px 33px;
+}
+.social .twitter{
+	background:url('../images/sprites.social.png') 33px 33px;
+}
+.social .facebook:hover{
+	background:url('../images/sprites.social.png') 66px 0px;
+}
+.social .linkedin:hover{
+	background:url('../images/sprites.social.png') 0px 0px;
+}
+.social .twitter:hover{
+	background:url('../images/sprites.social.png') 33px 0px;
+}
+#logoWrap{
+	width:500px;
+	margin:50px auto 100px 75px;
+}
+#logoTalentc{
+	float:left;
+	padding-right:25px;
+	width:175px;
+}
+.content h3{
+	font-size:45px;
+	margin:0 0 0 120px;
+	font-family: "alegreyaregular", "Times New Roman", Helvetica, Arial, sans-serif;
+}
+.content h3#tag{
+	margin-left:300px;
+}
+.mainContent{
+	width:500px;
+	background:rgba(255, 255, 255, 0.75);
+	padding:30px 50px;
+	display:inline-block;
+	border-bottom:solid;
+}
+.mainContent p{
+	text-indent:30px;
+}
+.mainContent p span{
+	font-weight:bold;
+}
+.mainContent h1{
+	border-bottom:dotted 1px #9c9c9c;
+}
+#doug_lawrence{
+	float:left;
+	width:200px;
+	margin-right:15px;
+}
+#footer_logo{
+	position:absolute;
+	height:75px;
+	bottom:50px;
+	right:50px;
+}
+.footerWrap{
+	position:relative;
+}
+form{
+	margin-top:30px;
+}
+form label{
+	display:block;
+	margin-top:20px;
+	font-weight:bold;
+}
+form input[type=text], form textarea{
+	outline:0;
+	border:solid 1px #b6b6b6;
+	border-radius:3px;
+	padding:10px;
+	width:450px;
+	
+}
+form textarea{
+	max-width:450px;
+	height:150px;
+}
+form input[type=submit]{
+	display:block;
+	margin-top:25px;
+	border:none;
+	font-size:20px;
+	padding:5px 15px;
+	border-radius:3px;
+	background:#004a80;
+	color:#e2e2e2;
+}
+form span{
+	display:block;
+	margin-top:10px;
+	font-size:12px;
+}
+.contactPerson span{
+	display:block;
+}
+.contactPerson{
+	display:inline-block;
+	width:310px;
+	vertical-align:top;
+	margin:80px auto auto 15px;
+	font-size:14px;
+	background:rgba(255, 255, 255, 0.75);
+	padding:15px;
+	border-top:solid;
+}
+.contactPerson p{
+	font-size:20px;
+	font-weight:bold;
+	margin-top:0;
+}
+
+
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+}
